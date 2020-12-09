@@ -1,0 +1,179 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Application/Application.csproj": {}
+  },
+  "projects": {
+    "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Application/Application.csproj",
+        "packagesPath": "/Users/SomeWeirdWizard/.nuget/packages/",
+        "outputPath": "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/SomeWeirdWizard/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Domain/Domain.csproj": {
+                "projectPath": "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Domain/Domain.csproj"
+              },
+              "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Persistence/Persistence.csproj": {
+                "projectPath": "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Persistence/Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Domain/Domain.csproj",
+        "packagesPath": "/Users/SomeWeirdWizard/.nuget/packages/",
+        "outputPath": "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/SomeWeirdWizard/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Persistence/Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Persistence/Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Persistence/Persistence.csproj",
+        "packagesPath": "/Users/SomeWeirdWizard/.nuget/packages/",
+        "outputPath": "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/SomeWeirdWizard/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Domain/Domain.csproj": {
+                "projectPath": "/Users/SomeWeirdWizard/Desktop/WendoverCinema/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
